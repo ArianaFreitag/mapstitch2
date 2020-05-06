@@ -13,6 +13,13 @@ body {
   position: inline-block;
   width: 4608px;
 }
+/* 
+/* full */
+.full_img {
+  top: 0;
+  left: 0;
+  float: left;
+} */
 /* image 1  and 2 */
 
 /* row 1 */
