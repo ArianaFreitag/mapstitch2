@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="action.js"></script>
+    <script src="zoom.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>untitled</title>
   </head>
 
-  <body class="dragscroll">
+  <ul id="zoom_triggers">
+    <li><a id="zoom_in">zoom in</a></li>
+    <li><a id="zoom_out">zoom out</a></li>
+    <li><a id="zoom_reset">reset zoom</a></li>
+  </ul>
+
+  <body class="dragscroll" onLoad="window.scroll(6500, 6500)">
     <div class="big-container">
-      <!-- image 1 and 2 -->
-      <!-- <img class="full_img" src="image/full.jpg" /> -->
       <div class="row1">
-        <img class="one" src="image/1.jpg" />
-        <img class="two" src="image/2.jpg" />
-        <!-- <img class="three" src="image/b84_fake_B.png" />
-        <img class="four" src="image/b85_fake_B.png" />
-        <img class="five" src="image/b86_fake_B.png" />
+        <img class="one" src="new/s1.jpg" />
+        <img class="two" src="new/s2.jpg" />
+        <img class="three" src="new/s3.jpg" />
+        <img class="four" src="new/s4.jpg" />
+        <!-- <img class="five" src="image/b86_fake_B.png" />
         <img class="six" src="image/a87_fake_B.png" />
         <img class="seven" src="image/b88_fake_B.png" />
         <img class="eight" src="image/b89_fake_B.png" />
@@ -23,42 +29,42 @@
       </div>
 
       <div class="row2">
-        <img class="one_a" src="image/3.jpg" />
-        <img class="two_a" src="image/4.jpg" />
-        <!-- <img class="three_a" src="image/b93_fake_B.png" />
-        <img class="four_a" src="image/b94_fake_B.png" />
-        <img class="five_a" src="image/b95_fake_B.png" />
+        <img class="one_a" src="new/s5.jpg" />
+        <img class="two_a" src="new/s6.jpg" />
+        <img class="three_a" src="new/s7.jpg" />
+        <img class="four_a" src="new/s8.jpg" />
+        <!-- <img class="five_a" src="image/b95_fake_B.png" />
         <img class="six_a" src="image/b96_fake_B.png" />
         <img class="seven_a" src="image/b97_fake_B.png" />
         <img class="eight_a" src="image/b98_fake_B.png" />
         <img class="nine_a" src="image/b99_fake_B.png" /> -->
       </div>
 
-      <!-- <div class="row3">
-        <img class="one_b" src="image/b100_fake_B.png" />
-        <img class="two_b" src="image/b101_fake_B.png" />
-        <img class="three_b" src="image/b102_fake_B.png" />
-        <img class="four_b" src="image/b103_fake_B.png" />
-        <img class="five_b" src="image/b104_fake_B.png" />
+      <div class="row3">
+        <img class="one_b" src="new/s9.jpg" />
+        <img class="two_b" src="new/s10.jpg" />
+        <img class="three_b" src="new/s11.jpg" />
+        <img class="four_b" src="new/s12.jpg" />
+        <!-- <img class="five_b" src="image/b104_fake_B.png" />
         <img class="six_b" src="image/b105_fake_B.png" />
         <img class="seven_b" src="image/b106_fake_B.png" />
         <img class="eight_b" src="image/b107_fake_B.png" />
-        <img class="nine_b" src="image/b108_fake_B.png" />
+        <img class="nine_b" src="image/b108_fake_B.png" /> -->
       </div>
 
       <div class="row4">
-        <img class="one_c" src="image/b110_fake_B.png" />
-        <img class="two_c" src="image/b111_fake_B.png" />
-        <img class="three_c" src="image/b112_fake_B.png" />
-        <img class="four_c" src="image/b113_fake_B.png" />
-        <img class="five_c" src="image/b114_fake_B.png" />
+        <img class="one_c" src="new/s13.jpg" />
+        <img class="two_c" src="new/s14.jpg" />
+        <img class="three_c" src="new/s15.jpg" />
+        <img class="four_c" src="new/s16.jpg" />
+        <!-- <img class="five_c" src="image/b114_fake_B.png" />
         <img class="six_c" src="image/b115_fake_B.png" />
         <img class="seven_c" src="image/b116_fake_B.png" />
         <img class="eight_c" src="image/b117_fake_B.png" />
-        <img class="nine_c" src="image/b118_fake_B.png" />
+        <img class="nine_c" src="image/b118_fake_B.png" /> -->
       </div>
 
-      <div class="row5">
+      <!-- <div class="row5">
         <img class="one_d" src="image/b119_fake_B.png" />
         <img class="two_d" src="image/b120_fake_B.png" />
         <img class="three_d" src="image/b121_fake_B.png" />
@@ -114,11 +120,14 @@
         <img class="five_h" src="image/b159_fake_B.png" />
         <img class="six_h" src="image/b160_fake_B.png" />
         <img class="seven_h" src="image/b161_fake_B.png" />
-        <img class="eight_h" src="image/b162_fake_B.png" />
-        <!-- <img class="nine_h" src="image/a81_fake_B.png" /> -->
-      <!-- </div> -->
+        <img class="eight_h" src="image/b162_fake_B.png" /> -->
+      <!-- <img class="nine_h" src="image/a81_fake_B.png" /> -->
+      <!-- </div>
     </div>
   </body>
 </html>
 
 <!-- Dragscroll script from http://github.com/asvd/dragscroll -->
+    </div>
+  </body>
+</html>

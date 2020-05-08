@@ -11,16 +11,16 @@ body {
 
 .big-container {
   position: inline-block;
-  width: 4608px;
+  width: 26944px;
 }
-/* 
-/* full */
-.full_img {
-  top: 0;
-  left: 0;
-  float: left;
-} */
+/*
+
 /* image 1  and 2 */
+
+/* #zoom_triggers {
+  color: white;
+  position: fixed;
+} */
 
 /* row 1 */
 .one {
@@ -44,7 +44,7 @@ body {
   float: left;
 }
 
-.five {
+/* .five {
   top: 0;
   float: left;
 }
@@ -67,7 +67,7 @@ body {
 .nine {
   top: 0;
   float: left;
-}
+} */
 
 /* row 2 */
 .one_a {
