@@ -1,4 +1,5 @@
 #gallery {
+  z-index: 1;
   position: absolute;
   width: 100%;
   top: 0;
@@ -17,5 +18,13 @@ body::-webkit-scrollbar {
 
 /* Add a thumb */
 body::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0.0;
+  background: rgba(0,0,0,0.0);
+}
+
+#home {
+  position: fixed;
+  z-index: 2;
+  width: 110px;
+  left: 20px;
+  top: 20px;
 }
