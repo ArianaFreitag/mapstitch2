@@ -138,7 +138,7 @@ body {
   float: left;
 }
 
-/* icon */
+/* icons */
 .icon{
   opacity: 0;
   z-index: 2;
@@ -149,8 +149,8 @@ body {
 }
 
 #video_icon {
-  width: 696px;
   position: absolute;
-  top: 6820px;
-  left: 5570px;
+  width: 563px;
+  top: 6456px;
+  left: 3921px;
 }
