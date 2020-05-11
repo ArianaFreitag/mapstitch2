@@ -154,3 +154,45 @@ body {
   top: 6456px;
   left: 3921px;
 }
+
+#icon1 {
+  position: absolute;
+  width: 208px;
+  top: 6456px;
+  left: 3921px;
+}
+
+#icon2 {
+  position: absolute;
+  width: 336px;
+  top: 6829px;
+  left: 5067px;
+}
+
+#icon3 {
+  position: absolute;
+  width: 294px;
+  top: 6300px;
+  left: 5413px;
+}
+
+#icon4 {
+  position: absolute;
+  width: 208px;
+  top: 5924px;
+  left: 4898px;
+}
+
+#icon5 {
+  position: absolute;
+  width: 436px;
+  top: 5885px;
+  left: 4292px;
+}
+
+#icon6 {
+  position: absolute;
+  width: 563px;
+  top: 6456px;
+  left: 3921px;
+}
