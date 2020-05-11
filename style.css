@@ -221,3 +221,14 @@ body {
   top: 2946.5px;
   left: 1787.5px;
 }
+
+/* video */
+
+video#watchMe {
+  display: none;
+  z-index: 9999;
+  position:fixed;
+  height: 100%;
+  left:0;
+  top:0;
+}
