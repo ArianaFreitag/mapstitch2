@@ -12,7 +12,7 @@ body {
 .big-container {
   z-index: 0;
   position: inline-block;
-  width: 10000px;
+  width: 5000px;
 }
 /*
 
@@ -25,27 +25,32 @@ body {
 
 /* row 1 */
 .one {
+  width: 1000px;
   top: 0;
   left: 0;
   float: left;
 }
 
 .two {
+  width: 1000px;
   top: 0;
   float: left;
 }
 
 .three {
+  width: 1000px;
   top: 0;
   float: left;
 }
 
 .four {
+  width: 1000px;
   top: 0;
   float: left;
 }
 
 .five {
+  width: 1000px;
   top: 0;
   float: left;
 }
@@ -53,88 +58,108 @@ body {
 
 /* row 2 */
 .one_a {
+  width: 1000px;
   float: left;
 }
 
 .two_a {
+  width: 1000px;
   float: left;
 }
 
 .three_a {
+  width: 1000px;
   float: left;
 }
 
 .four_a {
+  width: 1000px;
   float: left;
 }
 
 .five_a {
+  width: 1000px;
   float: left;
 }
 
 
 /* row 3 */
 .one_b {
+  width: 1000px;
   float: left;
 }
 
 .two_b {
+  width: 1000px;
   float: left;
 }
 
 .three_b {
+  width: 1000px;
   float: left;
 }
 
 .four_b {
+  width: 1000px;
   float: left;
 }
 
 .five_b {
+  width: 1000px;
   float: left;
 }
 
 
 /* row 4 */
 .one_c {
+  width: 1000px;
   float: left;
 }
 
 .two_c {
+  width: 1000px;
   float: left;
 }
 
 .three_c {
+  width: 1000px;
   float: left;
 }
 
 .four_c {
+  width: 1000px;
   float: left;
 }
 
 .five_c {
+  width: 1000px;
   float: left;
 }
 
 
 /* row 5 */
 .one_d {
+  width: 1000px;
   float: left;
 }
 
 .two_d {
+  width: 1000px;
   float: left;
 }
 
 .three_d {
+  width: 1000px;
   float: left;
 }
 
 .four_d {
+  width: 1000px;
   float: left;
 }
 
 .five_d {
+  width: 1000px;
   float: left;
 }
 
@@ -150,49 +175,49 @@ body {
 
 #video_icon {
   position: absolute;
-  width: 563px;
-  top: 6456px;
-  left: 3921px;
+  width: 281.5px;
+  top: 3228px;
+  left: 1960.5px;
 }
 
 #icon1 {
   position: absolute;
-  width: 208px;
-  top: 6589px;
-  left: 4704px;
+  width: 104px;
+  top: 3294.5px;
+  left: 2352px;
 }
 
 #icon2 {
   position: absolute;
-  width: 294px;
-  top: 6829px;
-  left: 5067px;
+  width: 147px;
+  top: 3414.5px;
+  left: 2548.5px;
 }
 
 #icon3 {
   position: absolute;
-  width: 160px;
-  top: 6300px;
-  left: 5413px;
+  width: 80px;
+  top: 3150px;
+  left: 2706.5px;
 }
 
 #icon4 {
   position: absolute;
-  width: 255px;
-  top: 5924px;
-  left: 4898px;
+  width: 127.5px;
+  top: 2962px;
+  left: 2449px;
 }
 
 #icon5 {
   position: absolute;
-  width: 208px;
-  top: 5885px;
-  left: 4292px;
+  width: 104px;
+  top: 2942.5px;
+  left: 2146px;
 }
 
 #icon6 {
   position: absolute;
-  width: 347px;
-  top: 5893px;
-  left: 3575px;
+  width: 173.5px;
+  top: 2946.5px;
+  left: 1787.5px;
 }
