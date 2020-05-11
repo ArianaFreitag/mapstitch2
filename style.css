@@ -10,6 +10,7 @@ body {
 
 
 .big-container {
+  z-index: 0;
   position: inline-block;
   width: 10000px;
 }
@@ -44,30 +45,11 @@ body {
   float: left;
 }
 
-/* .five {
+.five {
   top: 0;
   float: left;
 }
 
-.six {
-  top: 0;
-  float: left;
-}
-
-.seven {
-  top: 0;
-  float: left;
-}
-
-.eight {
-  top: 0;
-  float: left;
-}
-
-.nine {
-  top: 0;
-  float: left;
-} */
 
 /* row 2 */
 .one_a {
@@ -90,21 +72,6 @@ body {
   float: left;
 }
 
-.six_a {
-  float: left;
-}
-
-.seven_a {
-  float: left;
-}
-
-.eight_a {
-  float: left;
-}
-
-.nine_a {
-  float: left;
-}
 
 /* row 3 */
 .one_b {
@@ -124,22 +91,6 @@ body {
 }
 
 .five_b {
-  float: left;
-}
-
-.six_b {
-  float: left;
-}
-
-.seven_b {
-  float: left;
-}
-
-.eight_b {
-  float: left;
-}
-
-.nine_b {
   float: left;
 }
 
@@ -165,22 +116,6 @@ body {
   float: left;
 }
 
-.six_c {
-  float: left;
-}
-
-.seven_c {
-  float: left;
-}
-
-.eight_c {
-  float: left;
-}
-
-.nine_c {
-  float: left;
-}
-
 
 /* row 5 */
 .one_d {
@@ -203,172 +138,19 @@ body {
   float: left;
 }
 
-.six_d {
-  float: left;
+/* icon */
+.icon{
+  display: block;
+  z-index: 2;
 }
 
-.seven_d {
-  float: left;
+.icon:hover{
+  display: none;
 }
 
-.eight_d {
-  float: left;
+#video_icon {
+  width: 20%;
+  position: absolute;
+  top: 6456px;
+  left: 3920px;
 }
-
-.nine_d {
-  float: left;
-}
-
-/* row 6 */
-.one_e {
-  float: left;
-}
-
-.two_e {
-  float: left;
-}
-
-.three_e {
-  float: left;
-}
-
-.four_e {
-  float: left;
-}
-
-.five_e {
-  float: left;
-}
-
-.six_e {
-  float: left;
-}
-
-.seven_e {
-  float: left;
-}
-
-.eight_e {
-  float: left;
-}
-
-.nine_e {
-  float: left;
-}
-
-/* row 7 */
-.one_f {
-  float: left;
-}
-
-.two_f {
-  float: left;
-}
-
-.three_f {
-  float: left;
-}
-
-.four_f {
-  float: left;
-}
-
-.five_f {
-  float: left;
-}
-
-.six_f {
-  float: left;
-}
-
-.seven_f {
-  float: left;
-}
-
-.eight_f {
-  float: left;
-}
-
-.nine_f {
-  float: left;
-}
-
-/* row 8 */
-.one_g {
-  float: left;
-}
-
-.two_g {
-  float: left;
-}
-
-.three_g {
-  float: left;
-}
-
-.four_g {
-  float: left;
-}
-
-.five_g {
-  float: left;
-}
-
-.six_g {
-  float: left;
-}
-
-.seven_g {
-  float: left;
-}
-
-.eight_g {
-  float: left;
-}
-
-.nine_g {
-  float: left;
-}
-
-/* row 9 */
-.one_h {
-  float: left;
-}
-
-.two_h {
-  float: left;
-}
-
-.three_h {
-  float: left;
-}
-
-.four_h {
-  float: left;
-}
-
-.five_h {
-  float: left;
-}
-
-.six_h {
-  float: left;
-}
-
-.seven_h {
-  float: left;
-}
-
-.eight_h {
-  float: left;
-}
-
-.nine_h {
-  float: left;
-}
-
-
-
-/* set loading image of first corner of image */
-
-/* tile the image to see if it loads better */
