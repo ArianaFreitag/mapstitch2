@@ -7,19 +7,26 @@
 }
 
 body {
-  overflow-y: scroll;
+  overflow-y:overlay;
 }
+
+/* body::-webkit-scrollbar-track-piece:start {
+    background: transparent url('Transparency100.png') repeat-y !important;
+}
+
+body::-webkit-scrollbar-track-piece:end {
+    background: transparent url('Transparency100.png') repeat-y !important;
+} */
 
 body::-webkit-scrollbar {
   width: 5px;
   height: 8px;
-  background-color: rgba(0,0,0,0);; /* or add it to the track */
+  background-color: rgba(0,0,0,0);
 }
 
-/* Add a thumb */
-/* body::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0.0);
-} */
+body::-webkit-scrollbar-thumb {
+  background: transparent url('scrollbar.png') repeat-y !important;
+}
 
 #home {
   position: fixed;
