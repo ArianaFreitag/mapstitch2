@@ -229,6 +229,7 @@ video#watchMe {
   z-index: 9999;
   position:fixed;
   height: 100%;
-  left:4%;
-  top:0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
